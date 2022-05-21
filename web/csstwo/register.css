@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 21, 2022, 3:32:22 PM
+    Author     : LENAR
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAEE;
+}
+
+.container {
+    max-width: 700px;
+/*    width: 100%;*/
+    background: #FFFFFF;
+    padding: 30px 45px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.container .title {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+}
+
+.user-details .input-box{
+    display: flex;
+    justify-content: center;
+    /*    text-align: center;*/
+    flex-direction: column;
+}
+
+.details {
+    justify-content: space-between;
+}
+
+.role-choice {
+    display: flex;
+    justify-content: center;
+}
+
+.captcha {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}

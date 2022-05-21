@@ -1,0 +1,97 @@
+/* 
+    Project: SideSkills
+    Author     : LENAR
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;0,800;0,900;1,700;1,800;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;0,800;0,900;1,100;1,200;1,300;1,800&display=swap');
+
+/*body {
+Background: pink;
+}
+
+.leftside, .rightside {
+
+    height: 100vh;
+    width: 100%;
+
+}
+
+.leftside {
+    background:pink;
+}
+
+.rightside {
+    background:lightblue;
+}*/
+
+.lpbg img {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.content {
+    position: absolute;
+    top: 40%;
+    left: 73%;
+    transform: translate(-50%);
+}
+
+.content h4 {
+    color: #FFC0CB;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+/*    margin-bottom: 40px;*/
+}
+
+.regbtn {
+    position: absolute;
+    top: 62%;
+    left: 60%;
+}
+
+.regbtn h6 {
+    color: #FFC0CB;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+
+.regbtn a {
+    background: #1B1212;
+    color: white;
+    padding: 5px 20px;
+    letter-spacing: 5px;
+    font-family: 'Montserrat', sans-serif;
+/*    font-weight: bold;*/
+    border-radius: 5%;
+    text-decoration: none;
+}
+
+.loginbtn {
+    position: absolute;
+    top: 70%;
+    left: 60%;
+}
+
+.loginbtn h6 {
+    color: #FFC0CB;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+
+.loginbtn a {
+    background: #1B1212;
+    color: white;
+    padding: 5px 20px;
+    letter-spacing: 5px;
+    font-family: 'Montserrat', sans-serif;
+/*    font-weight: bold;*/
+    border-radius: 5%;
+    text-decoration: none;
+}
